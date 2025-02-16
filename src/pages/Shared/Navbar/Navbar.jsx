@@ -15,7 +15,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
     </>
     return (
-        <div className="navbar opacity-65 bg-black text-white shadow-sm fixed z-10 max-w-screen-xl flex  justify-between border-2">
+        <div className="navbar opacity-65 bg-black text-white shadow-sm fixed z-10 max-w-screen-xl flex  justify-between ">
             <div className="">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,6 @@ const Navbar = () => {
                     {links}
                 </ul>
             </div>
-           
             <div className="">
                 <a className="btn">Button</a>
             </div>
